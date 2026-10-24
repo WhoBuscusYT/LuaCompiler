@@ -1,0 +1,13 @@
+# Third-party sources retain their actual languages and are excluded as vendors.
+native/lua-5.4.9/** linguist-vendored
+native/third_party/** linguist-vendored
+third_party/** linguist-vendored
+runtime/moonvulkan/** linguist-vendored
+
+# Generated build products only; original native bindings remain visible.
+native/build/** linguist-generated
+examples/**/build/** linguist-generated
+
+*.lcb binary
+*.spv binary
+*.exe binary

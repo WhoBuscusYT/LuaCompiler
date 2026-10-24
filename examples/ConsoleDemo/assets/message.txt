@@ -1,0 +1,1 @@
+This text and every Lua script are embedded in this single EXE.
